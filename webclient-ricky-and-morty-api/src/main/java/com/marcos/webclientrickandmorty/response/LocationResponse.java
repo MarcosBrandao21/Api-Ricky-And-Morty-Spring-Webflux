@@ -11,13 +11,11 @@ import lombok.Setter;
 @Getter
 @Setter
 @JsonAutoDetect(fieldVisibility = Visibility.ANY)
-public class CharacterResponse {
+public class LocationResponse {
 
 	private String id;
 	private String name;
-	private String status;
-	private String species;
-	private String image;
-	private List<String> episode;
-	
+	private String type;
+	private List<String> residents;
+	private String url;
 }
